@@ -12,7 +12,7 @@ const schema = yup.object({
     .number("must ba a number")
     .positive()
     .required("Price is Required"),
-  isbn: yup.number("must ba a number").positive().required("Isbn is Required"),
+  isbn: yup.number("must be a number").positive().required("Isbn is Required"),
   book_copies: yup
     .number("must ba a number")
     .positive()
